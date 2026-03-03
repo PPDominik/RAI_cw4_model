@@ -16,5 +16,5 @@ Aby poprawnie uruchomić symulację na swoim komputerze, potrzebujesz:
 ## Jak uruchomić projekt
 1. Sklonuj to repozytorium na swój dysk:
    ```bash
-   git clone <https://github.com/PPDominik/RAI_cw4_model>
+   git clone <https://github.com/PPDominik/RAI_cw4_model.git>
    cd <projekt_RAI_gazebo_cw4>
