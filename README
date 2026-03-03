@@ -1,0 +1,20 @@
+## Opis projektu
+To repozytorium zawiera autorskie środowisko symulacyjne 3D (świat) przygotowane dla **Gazebo** i **ROS 2 Humble**. 
+
+Projekt został stworzony w ramach Koła Robotyka Automatyka Informatyka na Politechnice Poznańskiej. Środowisko jest przystosowane do pracy z robotami mobilnymi (np. TurtleBot3) i służy do testowania algorytmów nawigacji (Nav2), omijania przeszkód oraz mapowania (SLAM).
+
+## Struktura plików
+* `models/` - Folder zawiera własne modele 3D (w tym główną mapę `cw4` zaimportowaną z pliku STL) wraz z wymaganymi plikami konfiguracyjnymi (SDF oraz config).
+* `wykladowy.world` - Główny plik środowiska Gazebo, który odpowiada za załadowanie fizyki, oświetlenia i rozmieszczenie modeli na scenie.
+
+## Wymagania
+Aby poprawnie uruchomić symulację na swoim komputerze, potrzebujesz:
+* Systemu Ubuntu 22.04
+* Zainstalowanego ROS 2 (wersja Humble)
+* Gazebo (Classic)
+
+## Jak uruchomić projekt
+1. Sklonuj to repozytorium na swój dysk:
+   ```bash
+   git clone <https://github.com/PPDominik/RAI_cw4_model>
+   cd <projekt_RAI_gazebo_cw4>
